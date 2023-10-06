@@ -4,33 +4,78 @@
         <title>NFT NEWS</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/81/81460.png"  type="image/x-icon">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        
     </head>
     <body>
         <h1>NFT NEWS</h1>
         <div class="search-container">
             <input type="text" class="search-box" placeholder="Search...">
-            <button class="search-button">Search</button></a>
+            <button class="search-button"><a href="https://www.google.com/"><img src="https://cdn-icons-png.flaticon.com/128/751/751463.png" width="17"></a></button>
         </div>             
 
-            <select id="my-dropdown">
-                <option value="#">Menu</option>
-                <option value="https://example.com/page1.html">Option 1</option>
-                <option value="https://example.com/page2.html">Option 2</option>
-            </select>
       
-        <header class="main-header">
+        <header class="main-header" >
             <nav>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li>Pricing</li>
-                    <li>Success</li>
-                    <li><a href="more.html">More</a></li>
+                    <li><a href="https://opensea.io/">Buy</li></a>
+                    <li><a href="https://www.google.com/search?q=nfts++latest+news&sca_esv=571229774&ei=t9QfZY-DEsXS1e8Pt7Wj6Aw&ved=0ahUKEwjPuqecj-GBAxVFafUHHbfaCM0Q4dUDCBA&uact=5&oq=nfts++latest+news&gs_lp=Egxnd3Mtd2l6LXNlcnAiEW5mdHMgIGxhdGVzdCBuZXdzMgcQABgNGIAEMggQABgIGB4YDTIIEAAYigUYhgMyCBAAGIoFGIYDMggQABiKBRiGA0jHE1DXBFjMEXABeAGQAQCYAcoBoAGyB6oBBTEuNS4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPCAgcQABiKBRhDwgIGEAAYBxgewgIFEAAYgATCAgQQABgewgIGEAAYBRgewgIGEAAYCBgewgINEAAYDRiABBixAxiDAeIDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp">More</a></li>
                 </ul>
             </nav>
             <hr>
         </header>
 
     <h1>Most expensive NFTs ever sold</h1>
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+             
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4547/content_1_The_Merge.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4546/content_2_5000_Days.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4545/content_3_Clock.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4543/content_5_CryptoPunk__5822.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4542/content_6_CryptoPunk__7523.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4541/content_7_TPunk__3442.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4540/content_8_CryptoPunk__41562.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4550/content_9_CryptoPunk__5577.png"></div>
+              <div class="swiper-slide"><img src="https://assets.coingecko.com/app/public/ckeditor_assets/pictures/4538/content_10_CryptoPunk__3100.png"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        autoplay:{
+             delay:3000,
+             disableonInteraction:false,
+
+        },
+        loop: true,
+      
+        pagination: {
+          el: '.swiper-pagination',
+          clickable:true,
+        },
+      
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
     <p>Non-fungible tokens (NFTs) have jumped onto the global financial main stage in the crypto sector. Well-known artists and promises of metaverses, amongst other factors, have played a role in the success of some NFTs and NFT collections.</p>
     <p>While the NFT space has become quite saturated, a select few have taken the lions share and become worth millions of dollars.Here, we cover three of the most expensive NFTs to date, according to their sale price, and their impact on the digital collection space.</p>
     <img src="Images/nfts.png" width="550px">
@@ -48,6 +93,7 @@
     <br>
 <footer>
     <br>
+    <hr>
    <nav>
     <ul>
     <li><a href ="https://colorlib.com/wp/wp-content/uploads/sites/2/free-html5-contact-form-templates.jpg.webp" height=550 >Contact Us</li></a>
